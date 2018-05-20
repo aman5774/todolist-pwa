@@ -1,0 +1,132 @@
+body{
+  margin: 0;
+  padding: 0;
+	font-family: serif;
+	background: #821bd1;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #EAECC6, #c58af2);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #EAECC6, #c58af2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+nav {
+  background-color: #ab51ef;
+  width: 100%;
+  height: 50px;
+  box-shadow: 2px 3px #B0B0BB;
+}
+
+nav{
+  margin: 0;
+  color: #ffffff;
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 50px;
+}
+
+nav #brand-name{
+  float: right;
+  margin: 0px 20px;
+}
+
+nav #app-name{
+  float: left;
+  margin: 0px 20px;
+  text-transform: uppercase;
+}
+
+h1{
+	background-color: #ab51ef;
+	color: white;
+	margin: 0;
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: 400;
+}
+
+.fa-plus{
+  margin: 0px 3%;
+  display: inline-block;
+}
+
+i.fa-plus{
+  font-size: 0.5em;
+}
+
+@media screen and (min-width: 470px) {
+  #container{
+  	max-width: 500px;
+  	margin: 100px auto;
+  	background-color: #f7f7f7;
+  	box-sizing: 0 0 3px rgba(0,0,0,0.1)
+  }
+
+  .fa-plus{
+    margin: 0px 3%;
+    display: inline-block;
+  }
+  i.fa-plus{
+    font-size: 1em;
+  }
+}
+
+#container{
+  width: 95%;
+  margin: 100px auto;
+  background-color: #f7f7f7;
+  box-sizing: 0 0 3px rgba(0,0,0,0.1)
+}
+
+input{
+	font-size: 18px;
+	color: #2980b9;
+	background-color: #f7f7f7;
+	width: 90%;
+	padding: 13px 13px 13px 20px;
+	box-sizing: border-box;
+	border: 3px solid rgba(0,0,0,0);
+}
+
+input:focus{
+	background-color: white;
+	border: 3px solid #2980b9;
+	outline: none;
+}
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	background: #fff;
+	height: 40px;
+	line-height: 40px;
+	color: #666;
+  border-bottom: 2px solid #f7f7f7;
+}
+
+/* li:hover span{
+	width: 40px;
+	opacity: 1.0;
+} */
+
+li:nth-child(even){
+	background-color: #f7f7f7;
+}
+
+span{
+	background-color: #e74c3c;
+	height: 40px;
+	margin-right: 20px;
+	text-align: center;
+	color: white;
+	width: 40px;
+	display: inline-block;
+	transition: 0.2s linear;
+	opacity: 1.0;
+}
+
+.completed{
+	color:gray;
+	text-decoration: line-through;
+}
